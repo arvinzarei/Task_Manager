@@ -8,7 +8,7 @@ table{
     direction: rtl;
 }
 .table-wrapper {
-    background: #fff;
+    background: rgba(173, 153, 153, 0.62);
     padding: 20px 25px;
     margin: 30px 0;
     border-radius: 3px;
