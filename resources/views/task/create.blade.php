@@ -31,5 +31,6 @@
 					</div>
 				</form>
         </div>
+		<image class="svg-img" src="../images/undraw_add_post_64nu.svg" alt="svg image" width="300px">
     </div>
 @endsection

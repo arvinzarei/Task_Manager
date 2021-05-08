@@ -59,6 +59,6 @@
                 </tbody>
             </table>
         </div>
+        <image class="svg-img" src="../images/Completed_task _Two_Color.svg" alt="svg image">
     </div>
-    <!-- End index Page -->
 @endsection('content')
