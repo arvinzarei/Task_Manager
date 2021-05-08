@@ -42,10 +42,10 @@
                         <td>{{ $task['created_at'] }}</td>
                         <td>
                             <form action="{{route('task.destroy',$task->id)}}" method="POST">
-                                <a href="{{route('task.edit',$task->id)}}" class="btn btn-primary" ><i class="material-icons" data-toggle="tooltip" title="ویرایش">&#xe3c9;</i>ویرایش</a>
+                                <a href="{{route('task.edit',$task->id)}}" class="btn btn-success bg-white" ><i class="material-icons" data-toggle="tooltip" title="ویرایش">&#xe3c9;</i>ویرایش</a>
                                 @csrf
                                 @method('DELETE')
-                                <button type="submit" class="btn btn-danger"><i class="material-icons" data-toggle="tooltip" title="حذف">&#xe872;</i> حذف </button> 
+                                <button type="submit" class="btn btn-danger "><i class="material-icons" data-toggle="tooltip" title="حذف">&#xe872;</i> حذف </button> 
                             </form>
                         </td>
                         <td>

@@ -8,7 +8,7 @@ table{
     direction: rtl;
 }
 .table-wrapper {
-    background: rgba(173, 153, 153, 0.62);
+    background:#94618E;
     padding: 20px 25px;
     margin: 30px 0;
     border-radius: 3px;
@@ -104,7 +104,9 @@ table.table .avatar {
 .edit-form input[type="text"]{
 text-align: right;
 }
-
+.bg-warning{
+    background: #e3e2df!important;
+}
 .hint-text {
     float: left;
     margin-top: 10px;
@@ -112,6 +114,7 @@ text-align: right;
 }    
 
 .header-title{
+    color:#fff;
     text-align:right;
     padding: 1rem 1rem;
     border-bottom: 1px solid #dee2e6;
@@ -119,6 +122,7 @@ text-align: right;
     line-height: 1.5;
 }
 .modal-body{
+    color:#fff;
     text-align: right;
 }
 
