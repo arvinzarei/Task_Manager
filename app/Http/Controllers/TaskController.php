@@ -72,12 +72,9 @@ class TaskController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request,Task $task)
     {
-        $task= Task::where('id',$id)->update([
-            'title'=>$request->title,   
-        ]);
-
+        $task->update($request->all());
         return redirect()->route('task.index')->with('success','! ویرایش انجام شد');
     }
 

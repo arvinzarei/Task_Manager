@@ -20,4 +20,4 @@ Route::get('/',function(){
     return view('welcome');
 });    
 
-Route::resource('task','TaskController',['except' => ['show']]);
+Route::resource('task','TaskController',['except' => ('show')]);
